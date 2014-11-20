@@ -9,7 +9,7 @@ describe('myApp.example1 module', function() {
     it('should ....', inject(function($controller) {
       //spec body
       var example1Ctrl = $controller('Example1Ctrl');
-      expect(view1Ctrl).toBeDefined();
+      expect(example1Ctrl).toBeDefined();
     }));
 
   });

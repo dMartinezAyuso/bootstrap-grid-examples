@@ -58,8 +58,8 @@ div {
 /* line 47, ../scss/app.scss */
 [class*="col-"] {
   padding: 1em 0;
-  background-color: rgba(255, 195, 13, 0.3);
-  border: 1px solid rgba(255, 195, 13, 0.4);
+  background-color: #ACDE97;
+  border: 1px solid #F2F5BF;
 }
 
 /* line 53, ../scss/app.scss */
