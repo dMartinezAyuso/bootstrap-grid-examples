@@ -1,0 +1,72 @@
+/* app scss stylesheet */
+
+.menu {
+    list-style: none;
+    border-bottom: 0.1em solid green;
+    margin-bottom: 2em;
+    padding: 0 0 0.5em;
+    
+    &:before {
+        content: "[";
+    }
+
+    &:after {
+        content: "]";
+    }
+
+    > li {
+        display: inline;
+        &:before {
+            content: "|";
+            padding-right: 0.3em;  
+        }
+
+        &:nth-child(1):before {
+            content: "";
+            padding: 0;
+        }
+    }
+}
+
+body {
+    padding: 0 16px;
+}
+.container {
+  padding: 0 1em;
+}
+.row {
+  margin-bottom: 1.5em;
+}
+.row .row {
+  margin-top: 0.8em;
+  margin-bottom: 0;
+}
+div {
+    text-align: center;
+}
+[class*="col-"] {
+  padding: 1em 0;
+  background-color: rgba(255,195,13,.3);
+  border: 1px solid rgba(255,195,13,.4);
+}
+
+.return {
+  position: relative;
+  display: block;
+  margin: auto;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid #57bebb;
+  padding: 0 15px;
+  text-decoration: none;
+  line-height: 40px;
+  color: #57bebb;
+  width: 200px;
+  height: 40px;
+}
+
+.return:hover {
+  color: tomato;
+  border: 2px solid white;
+}

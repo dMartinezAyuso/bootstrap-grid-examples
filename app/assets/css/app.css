@@ -1,0 +1,86 @@
+/* app scss stylesheet */
+/* line 3, ../scss/app.scss */
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid green;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+/* line 9, ../scss/app.scss */
+.menu:before {
+  content: "[";
+}
+/* line 13, ../scss/app.scss */
+.menu:after {
+  content: "]";
+}
+/* line 17, ../scss/app.scss */
+.menu > li {
+  display: inline;
+}
+/* line 19, ../scss/app.scss */
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+/* line 24, ../scss/app.scss */
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+/* line 31, ../scss/app.scss */
+body {
+  padding: 0 16px;
+}
+
+/* line 34, ../scss/app.scss */
+.container {
+  padding: 0 1em;
+}
+
+/* line 37, ../scss/app.scss */
+.row {
+  margin-bottom: 1.5em;
+}
+
+/* line 40, ../scss/app.scss */
+.row .row {
+  margin-top: 0.8em;
+  margin-bottom: 0;
+}
+
+/* line 44, ../scss/app.scss */
+div {
+  text-align: center;
+}
+
+/* line 47, ../scss/app.scss */
+[class*="col-"] {
+  padding: 1em 0;
+  background-color: rgba(255, 195, 13, 0.3);
+  border: 1px solid rgba(255, 195, 13, 0.4);
+}
+
+/* line 53, ../scss/app.scss */
+.return {
+  position: relative;
+  display: block;
+  margin: auto;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid #57bebb;
+  padding: 0 15px;
+  text-decoration: none;
+  line-height: 40px;
+  color: #57bebb;
+  width: 200px;
+  height: 40px;
+}
+
+/* line 69, ../scss/app.scss */
+.return:hover {
+  color: tomato;
+  border: 2px solid white;
+}
