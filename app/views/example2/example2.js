@@ -9,6 +9,11 @@ angular.module('myApp.example2', ['ngRoute'])
   });
 }])
 
-.controller('Example2Ctrl', [function() {
-
+.controller('Example2Ctrl', ['$scope', '$location', function($scope, $location) {
+    $scope.goExample1 = function() {
+        $location.path('/example1');
+    };
+    $scope.goExample3 = function() {
+        $location.path('/example3');
+    };
 }]);

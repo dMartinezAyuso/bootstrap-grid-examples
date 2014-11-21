@@ -5,6 +5,10 @@ angular.module('myApp', [
   'ngRoute',
   'myApp.example1',
   'myApp.example2',
+  'myApp.example3',
+  'myApp.example4',
+  'myApp.example5',
+  'myApp.example6',
   'myApp.version'
 ]).
 config(['$routeProvider', function($routeProvider) {

@@ -84,3 +84,11 @@ div {
   color: tomato;
   border: 2px solid white;
 }
+
+/* line 74, ../scss/app.scss */
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
