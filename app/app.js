@@ -8,8 +8,7 @@ angular.module('myApp', [
   'myApp.example3',
   'myApp.example4',
   'myApp.example5',
-  'myApp.example6',
-  'myApp.version'
+  'myApp.example6'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/example1'});
